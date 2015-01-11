@@ -10,8 +10,10 @@ relative_permalinks: true
 
 # Setup
 title:               'Code & Stuff'
-tagline:             '(づ｡◕‿‿◕｡)づ'
-description:         '<a href="https://twitter.com/nsarnaud" target="_blank">@nsarnaud</a>.'
+tagline:             ''
+description:         '(づ｡◕‿‿◕｡)づ
+                      Twitter: <a href="https://twitter.com/nsarnaud" target="_blank">@nsarnaud</a>
+                      Github: <a href="https://github.com/nsarnaud" target="_blank">@nsarno</a>'
 url:                 http://nsarno.github.io
 baseurl:             /
 paginate:            1
