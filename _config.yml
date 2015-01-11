@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               'Code & Stuff'
 tagline:             ''
-description:         'Hi, I\'m <a href="https://twitter.com/nsarnaud" target="_blank">@nsarnaud</a>.'
+description:         'Hi, I am <a href="https://twitter.com/nsarnaud" target="_blank">@nsarnaud</a>.'
 url:                 http://nsarno.github.io
 baseurl:             /
 paginate:            1
