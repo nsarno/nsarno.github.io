@@ -5,4 +5,8 @@ layout: post
 
 # Hello, world!
 
+Code & stuff.
+
+```
 (づ｡◕‿‿◕｡)づ
+```
