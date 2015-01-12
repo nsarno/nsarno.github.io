@@ -83,6 +83,17 @@ $ git push heroku --force --all
 $ git push origin --force --all
 ```
 
+Now let's check if we can still access the history for this file on github by going config/newrelic.yml and clicking
+on the `history` button...
+
+![click on history]({{ site.url }}/assets/history-click.png)
+
+And checking that there is only one revision of the file, without the license key...
+
+![file history]({{ site.url }}/assets/config-history.png)
+
+Looks good!
+
 One last step...
 
 ### 3. Set your production environment
@@ -94,5 +105,11 @@ You can the set the values from the `application.yml` in your Heroku production 
 ```bash
 $ figaro heroku:set -e production
 ```
+
+### 4. Make it public!
+
+Time to show your beautiful code to the world!
+
+![make it public]({{ site.url }}/assets/make-public.png)
 
 And voilà!
