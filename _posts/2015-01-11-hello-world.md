@@ -1,6 +1,6 @@
 ---
 title: Hello, world!
-layout: post
+layout: page
 ---
 
 I'm [@nsarno](https://github.com/nsarno) on github. You can also find me on [Twitter](https://twitter.com/nsarnaud) or check out my [AngelList](https://angel.co/nsarno) profile.
