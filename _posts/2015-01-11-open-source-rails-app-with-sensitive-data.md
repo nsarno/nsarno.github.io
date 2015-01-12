@@ -73,7 +73,7 @@ If you've already been pushing code on your github repository, anyone could stil
 
 **NB: I strongly advise that you actually read the documentation from the link above as it is a non trivial git operation.**
 
-Here's an example with the newrelic.yml file:
+Here's how I did it for my newrelic.yml file:
 
 ```bash
 $ git filter-branch --force --index-filter \
