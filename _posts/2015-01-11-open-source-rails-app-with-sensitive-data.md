@@ -3,7 +3,7 @@ title: Open source a rails app with sensitive data
 layout: post
 ---
 
-## Some context first
+## Some context
 
 I recently open-sourced one of my personal projects on my github account.
 
@@ -96,8 +96,3 @@ $ figaro heroku:set -e production
 ```
 
 And voilà!
-
-Talk to [me](https://twitter.com/nsarnaud) on twitter!
-(づ｡◕‿‿◕｡)づ  
-
-<3
