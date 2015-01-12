@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               'Code & Stuff'
 tagline:             ''
 description:         'Hacking and programming<br>Written by <a href="https://github.com/nsarno">@nsarno</a><br>(づ｡◕‿‿◕｡)づ'
-url:                 ''
+url:                 'http://nsarno.github.io'
 baseurl:             /
 paginate:            1
 
