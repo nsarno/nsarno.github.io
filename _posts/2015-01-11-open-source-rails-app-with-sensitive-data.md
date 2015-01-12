@@ -71,7 +71,7 @@ If you've already been pushing code on your github repository, anyone could stil
 
 [Here](https://help.github.com/articles/remove-sensitive-data/) is a piece of github documentation that explains very well how to do it.
 
-**NB: I strongly advise that you actually read the documentation from the link above as it is quite a heavy operation.**
+**NB: I strongly advise that you actually read the documentation from the link above as it is a non trivial git operation.**
 
 Here's an example with the newrelic.yml file:
 
