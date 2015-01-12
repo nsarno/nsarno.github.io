@@ -110,6 +110,8 @@ $ figaro heroku:set -e production
 
 Time to show your beautiful code to the world!
 
+Double check you don't have any secrets left in your code, then go in the settings of your repo and click on "Make public" in the "Danger Zone" at the bottom.
+
 ![make it public]({{ site.url }}/assets/make-public.png)
 
 And voilà!
