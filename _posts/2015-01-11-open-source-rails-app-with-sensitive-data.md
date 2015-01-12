@@ -32,7 +32,7 @@ I'll explain below the solution I used, it's not the only one but it's simple an
 
 You need to store it somewhere that won't get pushed with the rest of your files.
 
-Thankfully, an [figaro](https://github.com/laserlemon/figaro) gem exists to do just that.
+Thankfully, the [figaro](https://github.com/laserlemon/figaro) gem exists to do just that.
 
 Add it to your Gemfile:
 
