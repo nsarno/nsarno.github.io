@@ -9,7 +9,7 @@ Wether it's lack of documentation or pure [curiosity](http://programmer.97things
 
 ![curiosity]({{ site.url }}/assets/curiosity.jpg)
 
-As curious as I am, I hate groping around thousands of lines of code to find the method I'm after. Thankfully an awesome little method called `#source_location` exists (Ruby 1.9+).
+As curious as I am, I hate groping around thousands of lines of code to find the method I'm after. Thankfully a nifty little method called `#source_location` exists (Ruby 1.9+).
 
 ### Method#source_location
 
@@ -22,12 +22,12 @@ Let's have a look at the example class `Cat`:
 ```ruby
 class Cat
 	def meow
-		puts "Miaou" # This is a french cat.
+		puts "Miaou" # It's a french cat.
 	end
 end
 ```
 
-```ruby
+```bash
 $ irb
 irb(main):001:0> require './cat'
 => true
@@ -35,7 +35,7 @@ irb(main):001:0> require './cat'
 
 - As you know, `#meow` is a method that you can call like this:
 
-```ruby
+```bash
 irb(main):002:0> Cat.new.meow
 Miaou
 => nil
@@ -43,19 +43,19 @@ Miaou
 
 - But it's also an instance of the `Method` class that you can manipulate like this:
 
-```ruby
+```bash
 irb(main):003:0> Cat.new.method(:meow)
 => #<Method: Cat#meow>
 ```
 
-So all we have to do now is to call `#source_location` on the method we're interested in!
+So all we have to do now is to call `#source_location` on the Method object!
 
-```ruby
+```bash
 irb(main):004:0> Cat.new.method(:meow).source_location
 => ["/private/tmp/cat.rb", 4]
 ```
 
-And it tells us the `#meow` method is at the line 4 of the file `/private/tmp/cat.rb`
+And it tells us the `#meow` method is defined at line 4 of the file `/private/tmp/cat.rb`
 
 You can find documentation about `:source_location` [here](http://ruby-doc.org/core-1.9.3/
 Method.html#method-i-source_location).
@@ -72,7 +72,7 @@ Returns the Ruby source filename and line number containing this method or nil i
 
 Let's say we want to know more about the `has_secure_password` method from Rails ActiveModel.
 
-```ruby
+```bash
 $ rails c
 Loading development environment (Rails 4.1.5)
 irb(main):001:0> ActiveRecord::Base.method(:has_secure_password).source_location
@@ -83,7 +83,7 @@ There you go, the method is defined at line 44 of the file `[...]/.rbenv/version
 
 ### Limitations
 
-Native Ruby methods are written in C and thus `#source_location` does not work with those methods and will return nil as stated in the documentation.
+Native Ruby methods are written in C and thus `#source_location` does not work with those methods and will return `nil` as stated in the documentation.
 
 ```
 Returns [...] nil if this method was not defined in Ruby (i.e. native)
