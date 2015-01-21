@@ -16,13 +16,11 @@ Until then, I never cared too much about protecting any data as I used a private
 
 One may think open-sourcing a rails app is as simple as pushing the "Make public" button, and you couldn't be more wrong.
 
-![one does not]({{ site.url }}/assets/onedoesnot.jpg)
-
 ## Why you need to care about this
 
 Database password, third party services license key, password salt, etc. The sources of your rails app is full of sensitive data you don't want to disclose to anyone, let alone the entire internet.
 
-In my case, I don't want to disclose my NewRelic license key for example.
+As an example, I'll show how not to disclose my NewRelic license key.
 
 ## How to do it right
 
