@@ -14,7 +14,7 @@ tagline:             ''
 description:         'Hacking and programming<br>Written by <a href="https://github.com/nsarno">@nsarno</a><br>(づ｡◕‿‿◕｡)づ'
 url:                 'http://nsarno.github.io'
 baseurl:             /
-paginate:            5
+paginate:            2
 
 # About/contact
 author:
