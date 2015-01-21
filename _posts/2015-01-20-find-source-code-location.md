@@ -55,7 +55,7 @@ irb(main):004:0> Cat.new.method(:meow).source_location
 => ["/private/tmp/cat.rb", 4]
 ```
 
-And it tells us the `#meow` method is at the line 4 of the file `/private/tmp/cat.rb`
+And it tells us the `#meow` method is defined at line 4 of the file `/private/tmp/cat.rb`
 
 You can find documentation about `:source_location` [here](http://ruby-doc.org/core-1.9.3/
 Method.html#method-i-source_location).
