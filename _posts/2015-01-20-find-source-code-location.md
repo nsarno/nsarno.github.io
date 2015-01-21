@@ -48,7 +48,7 @@ irb(main):003:0> Cat.new.method(:meow)
 => #<Method: Cat#meow>
 ```
 
-So all we have to do now is to call `#source_location` on the method we're interested in!
+So all we have to do now is to call `#source_location` on the Method object!
 
 ```bash
 irb(main):004:0> Cat.new.method(:meow).source_location
