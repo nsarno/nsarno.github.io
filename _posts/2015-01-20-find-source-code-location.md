@@ -9,7 +9,7 @@ Wether it's lack of documentation or pure [curiosity](http://programmer.97things
 
 ![curiosity]({{ site.url }}/assets/curiosity.jpg)
 
-As curious as I am, I hate groping around thousands of lines of code to find the method I'm after. Thankfully an awesome little method called `#source_location` exists (Ruby 1.9+).
+As curious as I am, I hate groping around thousands of lines of code to find the method I'm after. Thankfully a nifty little method called `#source_location` exists (Ruby 1.9+).
 
 ### Method#source_location
 
