@@ -5,7 +5,7 @@ layout: post
 
 ### Do I really need to?
 
-Wether it's lack of documentation or pure [curiosity](http://programmer.97things.oreilly.com/wiki/index.php/Curiosity_Killed_the_Cat,_but_It_Will_Make_You_Stronger), sometimes you need to dig into the source code of some methods to understand what it does or how it works.
+Whether it's lack of documentation or pure [curiosity](http://programmer.97things.oreilly.com/wiki/index.php/Curiosity_Killed_the_Cat,_but_It_Will_Make_You_Stronger), sometimes you need to dig into the source code of some methods to understand what it does or how it works.
 
 ![curiosity]({{ site.url }}/assets/curiosity.jpg)
 
