@@ -66,7 +66,7 @@ Method.html#method-i-source_location).
 Returns the Ruby source filename and line number containing this method or nil if this method was not defined in Ruby (i.e. native)
 ```
 
-*NB: `#method` needs to be called on the instance of a class if the argument is an instance method and on the class itself if the argument is a class method*
+*NB: `#method` needs to be called on the instance of a class if the argument is an instance method and on the class itself if the argument is a class method.*
 
 ### Real life example
 
