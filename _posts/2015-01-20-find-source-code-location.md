@@ -27,7 +27,7 @@ class Cat
 end
 ```
 
-```ruby
+```bash
 $ irb
 irb(main):001:0> require './cat'
 => true
@@ -35,7 +35,7 @@ irb(main):001:0> require './cat'
 
 - As you know, `#meow` is a method that you can call like this:
 
-```ruby
+```bash
 irb(main):002:0> Cat.new.meow
 Miaou
 => nil
@@ -43,14 +43,14 @@ Miaou
 
 - But it's also an instance of the `Method` class that you can manipulate like this:
 
-```ruby
+```bash
 irb(main):003:0> Cat.new.method(:meow)
 => #<Method: Cat#meow>
 ```
 
 So all we have to do now is to call `#source_location` on the method we're interested in!
 
-```ruby
+```bash
 irb(main):004:0> Cat.new.method(:meow).source_location
 => ["/private/tmp/cat.rb", 4]
 ```
@@ -72,7 +72,7 @@ Returns the Ruby source filename and line number containing this method or nil i
 
 Let's say we want to know more about the `has_secure_password` method from Rails ActiveModel.
 
-```ruby
+```bash
 $ rails c
 Loading development environment (Rails 4.1.5)
 irb(main):001:0> ActiveRecord::Base.method(:has_secure_password).source_location
