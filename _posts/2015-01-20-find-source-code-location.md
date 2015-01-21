@@ -83,7 +83,7 @@ There you go, the method is defined at line 44 of the file `[...]/.rbenv/version
 
 ### Limitations
 
-Native Ruby methods are written in C and thus `#source_location` does not work with those methods and will return nil as stated in the documentation.
+Native Ruby methods are written in C and thus `#source_location` does not work with those methods and will return `nil` as stated in the documentation.
 
 ```
 Returns [...] nil if this method was not defined in Ruby (i.e. native)
