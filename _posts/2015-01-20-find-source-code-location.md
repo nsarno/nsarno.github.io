@@ -22,7 +22,7 @@ Let's have a look at the example class `Cat`:
 ```ruby
 class Cat
 	def meow
-		puts "Miaou" # This is a french cat.
+		puts "Miaou" # It's a french cat.
 	end
 end
 ```
