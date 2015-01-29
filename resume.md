@@ -58,11 +58,13 @@ arnaud.mesureur@gmail.com
 
 ### Languages
 ---
+
 - English, fluent
 - French, native
 
 ### Links
 ---
+
 - [Github](https://github.com/nsarno), https://github.com/nsarno
 - [LinkedIn](https://www.linkedin.com/in/arnaudmesureur), https://www.linkedin.com/in/arnaudmesureur
 - [AngelList](https://angel.co/nsarno), https://angel.co/nsarno
