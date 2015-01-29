@@ -9,8 +9,9 @@ Arnaud Mesureur
 arnaud.mesureur@gmail.com  
 +33 6 48 20 19 22
 
-## Employment
 ---
+
+## Employment
 
 ### Lead developer, Quanta Computing 
 2013 - 2014
@@ -34,13 +35,16 @@ arnaud.mesureur@gmail.com
 ### Web developer (Intern), Miyowa
 2010 - 6 months internship
 
-## Other experiences
 ---
+
+## Other experiences
+
 - C & Unix system teacher at EPITECH
 - Finalist at StartupBus Europe 2014
 
-## Education
 ---
+
+## Education
 
 ### Master in Computer Science, EPITECH
 2009 - 2014
@@ -48,25 +52,25 @@ arnaud.mesureur@gmail.com
 ### California State University Long Beach
 2013 (Engineering & American Language Institute program)
 
-## Skills
 ---
+
+## Skills
 
 * Ruby, Rails, Javascript, AngularJS, C/C++, Objective-C, Swift
 * MySQL, Postgresql, Redis
 * Unit testing, E2E
 
+---
 
 ## Languages
----
 
 - English, fluent
 - French, native
 
-## Links
 ---
+
+## Links
 
 - [Github](https://github.com/nsarno), https://github.com/nsarno
 - [LinkedIn](https://www.linkedin.com/in/arnaudmesureur), https://www.linkedin.com/in/arnaudmesureur
 - [AngelList](https://angel.co/nsarno), https://angel.co/nsarno
-
-
