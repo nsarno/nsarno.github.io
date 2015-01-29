@@ -32,7 +32,7 @@ arnaud.mesureur@gmail.com
 ### iOS developer, S&D Agency
 2011 - 6 months internship
 
-### Web developer (Intern), Miyowa
+### Web developer, Miyowa
 2010 - 6 months internship
 
 ---
