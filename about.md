@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I'm [@nsarno](https://github.com/nsarno) on github. You can also find me on [Twitter](https://twitter.com/nsarnaud) or check out my [AngelList](https://angel.co/nsarno) profile.
+I'm [@nsarno](https://github.com/nsarno) on github. You can also find me on [Twitter](https://twitter.com/nsarnaud), on [AngelList](https://angel.co/nsarno) or check out my résumé [here](http://nsarno.github.io/about/).
 
 ![me]({{ site.url }}/assets/profile.jpg)
 
