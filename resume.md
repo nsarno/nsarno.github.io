@@ -30,10 +30,10 @@ arnaud.mesureur@gmail.com
 * Created original animations for the Appsfire app
 
 ### iOS developer, S&D Agency
-2011 - 6 months internship
+2011 - 6 month internship
 
 ### Web developer, Miyowa
-2010 - 6 months internship
+2010 - 6 month internship
 
 ---
 
