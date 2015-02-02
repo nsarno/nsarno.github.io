@@ -13,7 +13,7 @@ As curious as I am, I hate sifting through thousands of lines of code to find th
 
 ### Method#source_location
 
-As you know, in Ruby everything is an object. Even methods!
+As you know, in Ruby everything is an object (almost). Even methods?! Kinda...
 
 Let's have a look at the example class `Cat`:
 
@@ -33,7 +33,7 @@ irb(main):001:0> require './cat'
 => true
 ```
 
-- As you know, `#meow` is a method that you can call like this:
+- `#meow` is a method, not an object:
 
 ```bash
 irb(main):002:0> Cat.new.meow
@@ -41,12 +41,21 @@ Miaou
 => nil
 ```
 
-- But it's also an instance of the `Method` class that you can manipulate like this:
+- But you can also manipulate it as an instance of the  `Method` class:
 
 ```bash
 irb(main):003:0> Cat.new.method(:meow)
 => #<Method: Cat#meow>
 ```
+
+*Be careful though, as I said methods are not objects. Instances of the `Method` class are.*
+
+```
+Methods are a fundamental part of Ruby's syntax, but they are not values that Ruby programs can operate on. That is, Ruby's methods are not objects in the way that strings, numbers, and arrays are. It is possible, however, to obtain a Method object that represents a given method, and we can invoke methods indirectly through Method objects.
+```
+
+- [The Ruby Programming Language](http://www.amazon.com/dp/0596516177/)
+
 
 So all we have to do now is to call `#source_location` on the Method object!
 
