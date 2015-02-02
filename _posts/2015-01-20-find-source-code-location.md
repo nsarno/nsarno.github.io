@@ -52,7 +52,7 @@ irb(main):003:0> Cat.new.method(:meow)
 
 *Methods are a fundamental part of Ruby's syntax, but they are not values that Ruby programs can operate on. That is, Ruby's methods are not objects in the way that strings, numbers, and arrays are. It is possible, however, to obtain a Method object that represents a given method, and we can invoke methods indirectly through Method objects.*
 
-- [The Ruby Programming Language](http://www.amazon.com/dp/0596516177/)
+source: [The Ruby Programming Language](http://www.amazon.com/dp/0596516177/)
 
 
 So all we have to do now is to call `#source_location` on the Method object!
