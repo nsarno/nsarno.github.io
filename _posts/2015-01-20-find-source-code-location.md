@@ -48,11 +48,9 @@ irb(main):003:0> Cat.new.method(:meow)
 => #<Method: Cat#meow>
 ```
 
-*Be careful though, as I said methods are not objects. Instances of the `Method` class are.*
+**Be careful though, as I said methods are not objects. Instances of the `Method` class are.**
 
-```
-Methods are a fundamental part of Ruby's syntax, but they are not values that Ruby programs can operate on. That is, Ruby's methods are not objects in the way that strings, numbers, and arrays are. It is possible, however, to obtain a Method object that represents a given method, and we can invoke methods indirectly through Method objects.
-```
+*Methods are a fundamental part of Ruby's syntax, but they are not values that Ruby programs can operate on. That is, Ruby's methods are not objects in the way that strings, numbers, and arrays are. It is possible, however, to obtain a Method object that represents a given method, and we can invoke methods indirectly through Method objects.*
 
 - [The Ruby Programming Language](http://www.amazon.com/dp/0596516177/)
 
